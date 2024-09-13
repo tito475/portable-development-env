@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  codeserver:
+    container_name: codeserver
+    build:
+      context: ./codeserver/angular
+      dockerfile: Dockerfile
+    ports:
+      - 8443:8443
+    environment:
+      SUDO_PASSWORD: ${SUDO_PASSWORD:-password}
+    volumes:
+      - ./code:/config/workspace
+      - ./codeserver/config:/config

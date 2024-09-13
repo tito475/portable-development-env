@@ -1,0 +1,9 @@
+{
+  "query": {
+    "folder": "/config/workspace"
+  },
+  "update": {
+    "checked": 1694727076010,
+    "version": "4.16.1"
+  }
+}

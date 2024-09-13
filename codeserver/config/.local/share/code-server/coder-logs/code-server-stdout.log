@@ -1,0 +1,50 @@
+[2023-09-14T21:30:45.951Z] info  code-server 4.16.1 94ef3776ad7bebfb5780dfc9632e04d20d5c9a6c
+[2023-09-14T21:30:45.952Z] info  Using user-data-dir ~/data
+[2023-09-14T21:30:45.973Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-09-14T21:30:45.974Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2023-09-14T21:30:45.974Z] info    - Authentication is disabled
+[2023-09-14T21:30:45.974Z] info    - Not serving HTTPS
+[2023-09-14T21:30:45.974Z] info  Session server listening on /config/data/code-server-ipc.sock
+[2023-09-14T21:31:14.575Z] info  code-server 4.16.1 94ef3776ad7bebfb5780dfc9632e04d20d5c9a6c
+[2023-09-14T21:31:14.576Z] info  Using user-data-dir ~/data
+[2023-09-14T21:31:14.593Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-09-14T21:31:14.593Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2023-09-14T21:31:14.593Z] info    - Authentication is disabled
+[2023-09-14T21:31:14.593Z] info    - Not serving HTTPS
+[2023-09-14T21:31:14.593Z] info  Session server listening on /config/data/code-server-ipc.sock
+[21:31:14] 
+
+
+
+
+[21:31:14] Extension host agent started.
+[21:31:14] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+[21:31:14] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+[21:31:15] [172.18.0.1][8161fb20][ManagementConnection] New connection established.
+[21:31:16] [172.18.0.1][9a8ca7aa][ExtensionHostConnection] New connection established.
+[21:31:16] [172.18.0.1][9a8ca7aa][ExtensionHostConnection] <219> Launched Extension Host Process.
+[2023-09-14T21:37:38.619Z] info  code-server 4.16.1 94ef3776ad7bebfb5780dfc9632e04d20d5c9a6c
+[2023-09-14T21:37:38.620Z] info  Using user-data-dir ~/data
+[2023-09-14T21:37:38.639Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-09-14T21:37:38.639Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2023-09-14T21:37:38.639Z] info    - Authentication is disabled
+[2023-09-14T21:37:38.639Z] info    - Not serving HTTPS
+[2023-09-14T21:37:38.639Z] info  Session server listening on /config/data/code-server-ipc.sock
+[21:37:39] 
+
+
+
+
+[21:37:39] Extension host agent started.
+[21:37:55] [172.18.0.1][b376bb27][ManagementConnection] New connection established.
+[21:37:55] [172.18.0.1][1b8fe1e6][ExtensionHostConnection] New connection established.
+[21:37:55] [172.18.0.1][1b8fe1e6][ExtensionHostConnection] <221> Launched Extension Host Process.
+[21:38:21] [172.18.0.1][b376bb27][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:38:22] [172.18.0.1][1b8fe1e6][ExtensionHostConnection] <221> Extension Host Process exited with code: 0, signal: null.
+[21:38:28] [172.18.0.1][e5a71a7b][ManagementConnection] New connection established.
+[21:38:28] [172.18.0.1][a4d05ff3][ExtensionHostConnection] New connection established.
+[21:38:28] [172.18.0.1][a4d05ff3][ExtensionHostConnection] <401> Launched Extension Host Process.
+[IPC Library: Pty Host]  INFO Expanding terminal instance, old id 1 -> new id undefined
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 233 chars and 1 size events

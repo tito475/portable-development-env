@@ -1,0 +1,16 @@
+2023-09-14 21:31:18.648 [info] Log level: Info
+2023-09-14 21:31:18.649 [info] Validating found git in: "git"
+2023-09-14 21:31:18.649 [info] Using git "2.34.1" from "git"
+2023-09-14 21:31:18.649 [info] > git rev-parse --show-toplevel [39ms]
+2023-09-14 21:31:18.650 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-14 21:31:18.659 [info] > git rev-parse --show-toplevel [61ms]
+2023-09-14 21:31:18.659 [info] fatal: detected dubious ownership in repository at '/config/workspace/rtr-portal-web-ui'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /config/workspace/rtr-portal-web-ui
+2023-09-14 21:31:36.701 [info] > git rev-parse --show-toplevel [17ms]
+2023-09-14 21:31:36.701 [info] fatal: detected dubious ownership in repository at '/config/workspace/rtr-portal-web-ui'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /config/workspace/rtr-portal-web-ui

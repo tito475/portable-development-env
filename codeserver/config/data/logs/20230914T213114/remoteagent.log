@@ -1,0 +1,12 @@
+2023-09-14 21:31:14.828 [info] 
+
+
+
+
+2023-09-14 21:31:14.829 [info] Extension host agent started.
+2023-09-14 21:31:14.851 [info] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+2023-09-14 21:31:14.899 [info] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+2023-09-14 21:31:15.644 [info] [172.18.0.1][8161fb20][ManagementConnection] New connection established.
+2023-09-14 21:31:16.088 [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+2023-09-14 21:31:16.670 [info] [172.18.0.1][9a8ca7aa][ExtensionHostConnection] New connection established.
+2023-09-14 21:31:16.766 [info] [172.18.0.1][9a8ca7aa][ExtensionHostConnection] <219> Launched Extension Host Process.
