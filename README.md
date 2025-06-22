@@ -8,12 +8,14 @@ This project sets up a fully ready, portable development environment using Docke
 - **Support for Multiple Languages and Frameworks**:
 - Angular
 - Java
-- **Pre-configured Tools and Libraries**:
+- Python (with pyenv)
+- **Some Pre-configured Tools and Libraries**:
 - Node.js
 - Angular CLI
 - OpenJDK
 - Maven
 - Google Chrome
+- Pyenv
 
 ## Prerequisites
 
@@ -22,21 +24,22 @@ This project sets up a fully ready, portable development environment using Docke
 
 ## Getting Started
 
-1. **Build and run the Docker containers**:
+1. **Determine which languate you want to work with and modify `context: ./codeserver/python` with the correct value in the `docker-compose` file.** 
+2. **Build and run the Docker containers**:
         ```sh
         docker-compose up --build
         ```
 
-2. **Access the Code Server**:
+3. **Access the Code Server**:
         Open your web browser and navigate to `https://localhost:8443`. The default password is `password`.
 
 ## Directory Structure
 - `code/`: Directory for user code.
 - `codeserver/`: Contains configurations and Dockerfiles for the code server.
 - `angular/`: Dockerfile for setting up an Angular development environment.
-  - `java/`: Dockerfile for setting up a Java development environment.
-  - `config/`: Configuration files for the code server.
-  - `config.bak/`: Backup configuration files.
+- `java/`: Dockerfile for setting up a Java development environment.
+- `codeserver/python`: Python Dockerfile (pyenv + Python 3.11.0 + pyenv-virtualenv)
+- `config/`: Configuration files for the code server.
 - `docker-compose.yml`: Docker Compose configuration file.
 
 ## Configuration
@@ -49,6 +52,16 @@ This project sets up a fully ready, portable development environment using Docke
 
 - `./code:/config/workspace`: Mounts the `code` directory to the workspace directory in the container.
 - `./codeserver/config:/config`: Mounts the `config` directory to the configuration directory in the container.
+
+### Python 
+
+- Managed via **pyenv** (installed under `/opt/pyenv`) with **Python 3.11.0** as the global interpreter.
+- Includes **pyenv-virtualenv** for creating and managing isolated virtual environments.
+- Quickstart:
+  ```bash
+  pyenv virtualenv 3.11.0 myenv
+  pyenv activate myenv
+  ```
 
 ## Customization
 
