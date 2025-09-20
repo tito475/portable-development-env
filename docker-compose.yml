@@ -3,6 +3,11 @@ services:
   codeserver:
     container_name: codeserver
     build:
+      # Change context to desired language environment:
+      # ./codeserver/python - Python development with pyenv
+      # ./codeserver/angular - Angular development with Node.js
+      # ./codeserver/java - Java development with OpenJDK & Maven
+      # ./codeserver/php - PHP development with Composer & frameworks
       context: ./codeserver/python
       dockerfile: Dockerfile
     ports:
